@@ -133,13 +133,15 @@ namespace Puzzle
         private void pictureBox18_DragDrop(object sender, DragEventArgs e)
         {
             pictureBox18.Image = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
+
+            //asta ii metoda sei lunga
             if ((Bitmap)e.Data.GetData(DataFormats.Bitmap) == pictureBox1.Image)
             {
                 pictureBox1.Image = null;
             }
-            else if ()
+            else if ((Bitmap)e.Data.GetData(DataFormats.Bitmap) == pictureBox2.Image)
             {
-
+                pictureBox2.Image = null;
             }
         }
 
