@@ -134,7 +134,7 @@ namespace Puzzle
         {
             pictureBox18.Image = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
 
-            //asta ii metoda sei lunga
+            //asta ii metoda sei lunga care spunem
             if ((Bitmap)e.Data.GetData(DataFormats.Bitmap) == pictureBox1.Image)
             {
                 pictureBox1.Image = null;
